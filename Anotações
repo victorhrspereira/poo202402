@@ -1,0 +1,34 @@
+ENTROU NA SALA
+
+git config --global user.email "hugo.zb@aluno.ifsc.edu.br"
+git config --global user.name "Hugo Bonome"
+
+git clone https://github.com/HugoBonome/Exercicios_JAVA_POO.git
+
+cd Exercicios_JAVA_POO
+mkdir aula-xx
+
+
+AO TERMINAR A AULA:
+
+git add
+git push
+git commit -m "nome da pasta"
+
+
+CRIAÇÃO DE ARQUIVO GRADLE:
+cd Aula-xx
+Gradle Init
+
+limpar interface GRADLE:
+
+- Criar arquivo na pasta geral de nome "gradle.properties"
+inserir:
+org.gradle.console=plain
+org.gradle.logging.level=quiet
+recarregar gradle (clicar no elefantinho)
+
+
+Para fazer depuração pelo VS Code:
+
+pedir para o usuário digitar números inteiros, enquanto não for 999, perguntar novamente, SE DIGITAR 999 MOSTRAR TODOS OS ITENS NA TELA ORDENADOS
